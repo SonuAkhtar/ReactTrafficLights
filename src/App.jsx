@@ -1,13 +1,14 @@
-import { useState } from "react";
+import Lights from "./components/Lights/Lights";
 
-function App() {
-  const [count, setCount] = useState(0);
-
+const App = () => {
   return (
     <>
-      <div>Hello </div>
+      <div className="app">
+        <h1>Traffic Lights</h1>
+        <Lights />
+      </div>
     </>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,43 @@
+.light__container {
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+.light__container span {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  color: white;
+  opacity: 0.25;
+}
+
+.light__container span:nth-child(1) {
+  background-color: green;
+}
+
+.light__container span:nth-child(2) {
+  background-color: yellow;
+}
+
+.light__container span:nth-child(3) {
+  background-color: red;
+}
+
+.light__container span.green,
+.light__container span.yellow,
+.light__container span.red {
+  opacity: 1;
+}
